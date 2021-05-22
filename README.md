@@ -1,2 +1,2 @@
 # devshelpdevs_webapp
-Devshelpdevs web application
+Devshelpdevs web application for donors
