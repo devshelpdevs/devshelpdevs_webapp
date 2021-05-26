@@ -23,7 +23,7 @@ Devshelpdevs web application for donors
 	
 	```
 5. Then you can start coding.
-6. When done, always first pull the latest changes and updates from the repository using ` git pull origin dev` .
+6. When done, always first pull the latest changes and updates from the repository using ` git pull origin` .
 7. Stage your changes using `git add .`.
 8. Commit your changes using `git commit -m "reasonable commit message`.
 9. Push your code to github using `git push -u origin "your new branch name"`.
