@@ -22,9 +22,15 @@ Devshelpdevs web application for donors
 	git checkout -b "your new branch name"
 	
 	```
+
+    > __NOTE *__ These are conventions for naming branches are
+    - For new features use => "feature/your_username/feature-name"
+    - For bug fix use => "bugfix/your_username/bug-name"
+    - For hotfix use => "hotfix/your_username/hotfix-name"
+
 5. Then you can start coding.
 6. When done, always first pull the latest changes and updates from the repository using ` git pull origin` .
-7. Stage your changes using `git add .`.
+7. Stage your all changes using `git add .`.
 8. Commit your changes using `git commit -m "reasonable commit message`.
 9. Push your code to github using `git push -u origin "your new branch name"`.
 10. Make a pull request on github.
