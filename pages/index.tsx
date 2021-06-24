@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Testimonials from '../components/pages/home/testimonials'
 
 export default function Home() {
   return (
@@ -35,7 +36,7 @@ export default function Home() {
           Welcome to <a href="/">DevsHelpDevs!</a>
         </h1>
 
-      
+        <Testimonials />
       </main>
     </div>
   )
