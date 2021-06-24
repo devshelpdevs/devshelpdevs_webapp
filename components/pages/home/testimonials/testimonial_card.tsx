@@ -1,7 +1,7 @@
 
 function TestimonialCard({ data, isActive }) {
     return (
-        <div className={"flex flex-col justify-between py-[42px]  bg-white border border-gray-200 shadow-2xl rounded-xl" + (isActive ? " w-[530px] h-[480px] " : " w-[308px] h-[296px] py-8 justify-around opacity-50")}>
+        <div className={"flex flex-col justify-between py-[42px]  bg-gray-100 border border-gray-200 shadow-2xl rounded-xl" + (isActive ? " w-[530px] h-[480px] " : " w-[308px] h-[296px] py-8 justify-around opacity-50")}>
 
             {/* user avatar and name */}
             <div className="flex items-center justify-center space-x-4 ">
