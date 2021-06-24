@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Contribute from './home/section/contribute'
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
         <h1 >
           Welcome to <a href="/">DevsHelpDevs!</a>
         </h1>
+
+<Contribute/>
 
       
       </main>
