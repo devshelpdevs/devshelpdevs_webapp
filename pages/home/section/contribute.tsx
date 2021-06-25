@@ -1,8 +1,9 @@
 
-import Image from 'next/image'
-import dolla from '../../../public/dolla.svg'
-import vector2 from '../../../public/vector2.svg'
-import vector3 from '../../../public/vector3.svg'
+import Image from 'next/image';
+
+import dolla from '../../../public/assets/images/contribute/dolla.svg';
+import vector2 from '../../../public/assets/images/contribute/vector2.svg';
+import vector3 from '../../../public/assets/images/contribute/vector3.svg';
 
 
 
