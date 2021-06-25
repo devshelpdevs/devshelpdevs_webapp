@@ -1,6 +1,5 @@
 import Head from 'next/head'
-import Contribute from './home/section/contribute'
-import Testimonials from '../components/pages/home/testimonials'
+
 
 export default function Home() {
   return (
@@ -37,10 +36,7 @@ export default function Home() {
           Welcome to <a href="/">DevsHelpDevs!</a>
         </h1>
 
-<Contribute/>
 
-      
-        <Testimonials />
       </main>
     </div>
   )
