@@ -1,5 +1,9 @@
 import Head from 'next/head'
+<<<<<<< HEAD
+import Contribute from './home/section/contribute'
+=======
 import Testimonials from '../components/pages/home/testimonials'
+>>>>>>> e8473d8f03b8ab48bbdb30b2798b8061142c896a
 
 export default function Home() {
   return (
@@ -36,7 +40,13 @@ export default function Home() {
           Welcome to <a href="/">DevsHelpDevs!</a>
         </h1>
 
+<<<<<<< HEAD
+<Contribute/>
+
+      
+=======
         <Testimonials />
+>>>>>>> e8473d8f03b8ab48bbdb30b2798b8061142c896a
       </main>
     </div>
   )
