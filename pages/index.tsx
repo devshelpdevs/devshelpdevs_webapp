@@ -1,7 +1,6 @@
 import Head from 'next/head'
 
 
->>>>>> dev
 
 export default function Home() {
   return (
@@ -37,10 +36,6 @@ export default function Home() {
         <h1 >
           Welcome to <a href="/">DevsHelpDevs!</a>
         </h1>
-
-
-
-
       </main>
     </div>
   )
