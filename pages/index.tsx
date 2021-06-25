@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Contribute from './home/section/contribute'
 import Testimonials from '../components/pages/home/testimonials'
+import Hero from '../components/pages/home/hero'
 
 export default function Home() {
   return (
@@ -10,15 +11,15 @@ export default function Home() {
         <meta name="description" content="A developers community run charity platform that helps to provide developers in developing countries with the needed tools to work" />
         <link rel="icon" href="/favicon.ico" />
 
-             {/* facebook open graph */}
+        {/* facebook open graph */}
         <meta property="og:title" content="DevsHelpDevs" />
         <meta property="og:site_name" content="DevsHelpDevs" />
         <meta property="og:description"
-            content="A developers community run charity platform that helps to provide developers in developing countries with the needed tools to work" />
+          content="A developers community run charity platform that helps to provide developers in developing countries with the needed tools to work" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:image"
-            content="https://res.cloudinary.com/dahn8uiyc/image/upload/v1616148009/devs_help_logo_nhhzov.png" />
+          content="https://res.cloudinary.com/dahn8uiyc/image/upload/v1616148009/devs_help_logo_nhhzov.png" />
         <meta property="og:url" content="https://devshelpdevs.org" />
 
         {/* Twitter cards  */}
@@ -27,9 +28,9 @@ export default function Home() {
         <meta name="twitter:creator" content="@bigg_aji" />
         <meta name="twitter:title" content="DevsHelpDevs" />
         <meta name="twitter:description"
-            content="A developers community run charity platform that helps to provide developers in developing countries with the needed tools to work" />
+          content="A developers community run charity platform that helps to provide developers in developing countries with the needed tools to work" />
         <meta name="twitter:img"
-            content="https://res.cloudinary.com/dahn8uiyc/image/upload/v1616148009/devs_help_logo_nhhzov.png" /> 
+          content="https://res.cloudinary.com/dahn8uiyc/image/upload/v1616148009/devs_help_logo_nhhzov.png" />
       </Head>
 
       <main>
@@ -37,9 +38,10 @@ export default function Home() {
           Welcome to <a href="/">DevsHelpDevs!</a>
         </h1>
 
-<Contribute/>
+        <Hero />
 
-      
+        <Contribute />
+
         <Testimonials />
       </main>
     </div>
