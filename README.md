@@ -10,11 +10,9 @@ Devshelpdevs web application for donors
     ```
     git clone https://github.com/DevsHelpDevs/devshelpdevs_webapp.git
 
-    git remote add origin https://github.com/DevsHelpDevs/devshelpdevs_webapp.git
-
     cd devshelpdevs_webapp
 
-    yarn install
+    yarn
     
     ```
 4. You will notice you are on the __(dev)__ branch, do not start coding immediately.
