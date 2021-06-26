@@ -54,7 +54,6 @@ function contribute() {
         </div>
 
         <div className='patreon p-10'>
-          {/* <Image src={vector3} alt='patreon' /> */}
           <PatreonIcon />
           <h4 className='pt-6 pb-6 text-blue-900'>Become a patreon</h4>
 
