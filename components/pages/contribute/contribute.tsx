@@ -1,9 +1,9 @@
 
 import Image from 'next/image';
 
-import dolla from '../../../public/assets/images/contribute/dolla.svg';
-import vector2 from '../../../public/assets/images/contribute/vector2.svg';
-import vector3 from '../../../public/assets/images/contribute/vector3.svg';
+import MoneyIcon from '../../../public/assets/images/contribute/money-icon';
+import HandIcon from '../../../public/assets/images/contribute/hand-icon';
+import PatreonIcon from '../../../public/assets/images/contribute/patreon-icon'
 
 
 
@@ -24,7 +24,7 @@ function contribute() {
 
       <div className='grid grid-cols-3 m-20 gap-12 font-normal'>
         <div className='donate p-10 '>
-          <Image src={dolla} alt='donate' />
+          <MoneyIcon />
           <h4 className='pt-6 pb-6 text-blue-900'>Donate to Applicant</h4>
 
           <p>
@@ -39,7 +39,7 @@ function contribute() {
         </div>
 
         <div className='support p-10'>
-          <Image src={vector2} alt='support' />
+          <HandIcon />
           <h4 className='pt-6 pb-6 text-blue-900'>Support the vision </h4>
 
           <p>
@@ -54,7 +54,8 @@ function contribute() {
         </div>
 
         <div className='patreon p-10'>
-          <Image src={vector3} alt='patreon' />
+          {/* <Image src={vector3} alt='patreon' /> */}
+          <PatreonIcon />
           <h4 className='pt-6 pb-6 text-blue-900'>Become a patreon</h4>
 
           <p>
