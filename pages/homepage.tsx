@@ -5,7 +5,7 @@ import Hero from '../components/pages/home/hero';
 import React from 'react';
 import Partners from '../components/pages/Partners';
 
-const Home = () =>  {
+const HomePage = () =>  {
   return <>
         <Hero />
         <Partners />
@@ -16,4 +16,4 @@ const Home = () =>  {
 }
 
 
-export default Home
+export default HomePage

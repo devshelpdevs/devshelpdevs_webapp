@@ -1,5 +1,5 @@
 import Head from 'next/head'
-
+import HomePage from './homepage'
 
 
 export default function Home() {
@@ -33,9 +33,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 >
-          Welcome to <a href="/">DevsHelpDevs!</a>
-        </h1>
+        <HomePage />
       </main>
     </div>
   )
