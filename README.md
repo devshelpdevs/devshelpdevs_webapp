@@ -19,7 +19,7 @@ Devshelpdevs web application for donors
 	First __create a new branch__ out of the __dev__ branch using the following commands
 
 	```
-	git checkout -b "your new branch name"
+	git checkout -b "your_new_branch_name"
 	
 	```
 
@@ -29,8 +29,14 @@ Devshelpdevs web application for donors
     - For hotfix use => "hotfix/your_username/hotfix-name"
 
 5. Then you can start coding.
-6. When done, always first pull the latest changes and updates from the repository using ` git pull origin` .
+6. When done, always first pull the latest changes and updates from the repository using ` git pull origin dev` .
 7. Stage your all changes using `git add .`.
-8. Commit your changes using `git commit -m "reasonable commit message`.
-9. Push your code to github using `git push -u origin "your new branch name"`.
+8. Commit your changes using `git commit -m "your commit message`.
+9. Push your code to github using `git push -u origin "your_new_branch_name"`.
 10. Make a pull request on github.
+
+### To run this project
+
+RUN: `yarn run dev`
+
+Then visit http://localhost:3000 to see it live.
