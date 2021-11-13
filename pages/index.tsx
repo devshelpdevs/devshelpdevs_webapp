@@ -24,12 +24,6 @@ export default function Home() {
         {/* Twitter cards  */}
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@HelpDevs" />
-        <meta name="twitter:creator" content="@bigg_aji" />
-        <meta name="twitter:title" content="DevsHelpDevs" />
-        <meta name="twitter:description"
-          content="A developers community run charity platform that helps to provide developers in developing countries with the needed tools to work" />
-        <meta name="twitter:img"
-          content="https://res.cloudinary.com/dahn8uiyc/image/upload/v1616148009/devs_help_logo_nhhzov.png" />
       </Head>
 
       <main>
