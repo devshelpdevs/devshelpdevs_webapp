@@ -8,16 +8,18 @@ on:
 jobs:
   build: 
     name: build and bundle code
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
       - run: yarn 
       - run: yarn build
   test:
     name: run test
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
